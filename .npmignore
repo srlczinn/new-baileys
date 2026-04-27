@@ -1,0 +1,15 @@
+node_modules
+coverage
+.nyc_output
+.git
+.vscode
+.idea
+tmp
+temp
+.cache
+*.log
+*.tmp
+*.tsbuildinfo
+.env
+.env.*
+*.local
