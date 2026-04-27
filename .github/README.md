@@ -1,6 +1,6 @@
-# @srlczinn/new-baileys
+# srlczinn/new-baileys
 
-Fork do Baileys baseado na base do GitHub `WhiskeySockets/Baileys`, com ajustes de compatibilidade para fluxos que pararam de funcionar em versões recentes.
+Fork do Baileys baseado na [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys), com ajustes de compatibilidade para fluxos que pararam de funcionar em versões recentes.
 
 ## O que esta versão traz
 
