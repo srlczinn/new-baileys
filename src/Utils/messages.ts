@@ -630,7 +630,7 @@ export const generateWAMessageContent = async (
 
 			const headerType = Object.keys(m)[0]?.replace('Message', '').toUpperCase()
 			buttonsMessage.headerType =
-				(proto.Message.ButtonsMessage.HeaderType as Record<string, number>)[headerType || ''] ||
+				(proto.Message.ButtonsMessage.HeaderType as unknown as Record<string, number>)[headerType || ''] ||
 				proto.Message.ButtonsMessage.HeaderType.EMPTY
 			Object.assign(buttonsMessage, m)
 		}
